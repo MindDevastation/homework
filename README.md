@@ -1,6 +1,6 @@
 # homework
 
-our first repo
+our origin repo
 ------------
 GIT BASICS
 ------------
