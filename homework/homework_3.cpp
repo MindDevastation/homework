@@ -127,22 +127,39 @@ void h3_task5()
 {
 	system("cls");
 	int amount = 0;
-	float course = 0.0;
+	constexpr float course_eur = 39.56, course_usd = 36.92, course_zt = 8.56;
 	std::string cur;
-	enum currency {
-		eur,
+	/*enum currency {
+		eur = 1,
 		usd,
 		zt
-	};
+	};*/
 	std::cout << "Greetings! Please, enter amount of currency you want to convert: ";
 	std::cin >> amount;
-	std::cout << "Enter course: ";
-	std::cin >> course;
+	std::cout << "Tooday course for eur is: " << course_eur << std::endl;
+	std::cout << "Tooday course for usd is: " << course_usd << std::endl;
+	std::cout << "Tooday course for zt is: " << course_zt << std::endl;
 	std::cout << "What currency do you want to convert into uah ? (eur / usd / zt): ";
 	std::cin >> cur;
-	if (cur == "eur") std::cout << amount << "eur = " << amount * course << "uah" << std::endl;
-	else if (cur == "usd") std::cout << amount << "usd = " << amount * course << "uah" << std::endl;
-	else if (cur == "zt") std::cout << amount << "zt = " << amount * course << "uah" << std::endl;
+
+	/*switch (cur) {
+	case eur:
+		std::cout << amount << "eur = " << amount * course_eur << "uah" << std::endl;
+		break;
+	case usd:
+		std::cout << amount << "usd = " << amount * course_usd << "uah" << std::endl;
+		break;
+	case zt:
+		std::cout << amount << "zt = " << amount * course_zt << "uah" << std::endl;
+		break;
+	default:
+		std::cout << " Wrong currency " << std::endl;
+		break;
+	}*/
+
+	if (cur == "eur") std::cout << amount << "eur = " << amount * course_eur << "uah" << std::endl;
+	else if (cur == "usd") std::cout << amount << "usd = " << amount * course_usd << "uah" << std::endl;
+	else if (cur == "zt") std::cout << amount << "zt = " << amount * course_zt << "uah" << std::endl;
 	else std::cout << " Wrong currency " << std::endl;
 
 }

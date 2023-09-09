@@ -3,8 +3,7 @@
 #include "homework_4.h"
 #include <stdlib.h>
 
-
-int main() {
+void abc() {
 	int index;
 	do {
 
@@ -37,6 +36,10 @@ int main() {
 		system("pause");
 		system("cls");
 	} while (index != 0);
+}
+
+int main() {
+	abc();
 
 	return 0;
 }
