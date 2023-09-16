@@ -92,12 +92,12 @@ void h5_task1() {
 }
 void h5_task2() {
 	system("cls");
-	int hr = 0, min = 0, sec = 0;
+	int hours = 0, minutes = 0, seconds = 0;
 	std::cout << "Enter time(hr min sec): ";
-	std::cin >> hr >> min >> sec;
-	if (hr >= 0 && hr <= 23) {
-		if (min >= 0 && min <= 59) {
-			if (sec >= 0 && sec <= 59) {
+	std::cin >> hours >> minutes >> minutes;
+	if (hours >= 0 && hours <= 23) {
+		if (minutes >= 0 && minutes <= 59) {
+			if (minutes >= 0 && minutes <= 59) {
 				std::cout << "Correct time!" << std::endl;
 			}
 			else std::cout << "Incorrect time!" << std::endl;
@@ -162,7 +162,7 @@ void h5_task6() {
 void h5_task7() {
 	system("cls");
 	int index = 0, odd_numbers = 0, counter = 1, sum = 0;
-	std::cout << "Enter amout of unpaired numbers: ";
+	std::cout << "Enter amout of odd numbers: ";
 	std::cin >> odd_numbers;
 	do {
 		if (counter % 2 != 0) {
@@ -235,12 +235,6 @@ void h5_task9() {
 
 double printnum(double button_number, char sign, double result) {
 	system("cls");
-	/*double number = number_button;
-	switch (number_button)
-	{ 
-	default:
-		break;
-	}*/
 	if (result == 0) {
 		result = button_number;
 	}
