@@ -135,6 +135,7 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdc17</LanguageStandard_C>
     </ClCompile>
+    <ClCompile Include="homework_7.cpp" />
     <ClCompile Include="main_homework.cpp">
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdc17</LanguageStandard_C>
@@ -146,6 +147,7 @@
     <ClInclude Include="homework_4.h" />
     <ClInclude Include="homework_5.h" />
     <ClInclude Include="homework_6.h" />
+    <ClInclude Include="homework_7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
