@@ -5,6 +5,7 @@
 #include "homework_6.h"
 #include "homework_7.h"
 #include "homework_8.h"
+#include "homework_9.h"
 #include <stdlib.h>
 
 void abc() {
@@ -49,6 +50,10 @@ void abc() {
 		}
 		case(6): {
 			h8_get();
+			break;
+		}
+		case(7): {
+			h9_get();
 			break;
 		}
 		case(0): {
