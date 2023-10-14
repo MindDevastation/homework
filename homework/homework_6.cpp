@@ -11,7 +11,7 @@ void h6_get() {
 	do {
 
 		std::cout << "================================" << std::endl;
-		std::cout << "========= Homework_5 ===========" << std::endl;
+		std::cout << "========= Homework_6 ===========" << std::endl;
 		std::cout << "||Enter Index 1 for task 1:   ||" << std::endl;
 		std::cout << "||Enter Index 2 for task 2:   ||" << std::endl;
 		std::cout << "||Enter Index 3 for task 3:   ||" << std::endl;
