@@ -4,6 +4,7 @@
 #include "homework_5.h"
 #include "homework_6.h"
 #include "homework_7.h"
+#include "homework_8.h"
 #include <stdlib.h>
 
 void abc() {
@@ -17,6 +18,8 @@ void abc() {
 		std::cout << "||Enter Index 3 for Homework 5:   ||" << std::endl;
 		std::cout << "||Enter Index 4 for Homework 6:   ||" << std::endl;
 		std::cout << "||Enter Index 5 for Homework 7:   ||" << std::endl;
+		std::cout << "||Enter Index 6 for Homework 8:   ||" << std::endl;
+		std::cout << "||Enter Index 7 for Homework 9:   ||" << std::endl;
 		std::cout << "||Enter Index 0 to exit:          ||" << std::endl;
 		std::cout << "====================================" << std::endl;
 		std::cout << "Enter your Index: ";
@@ -42,6 +45,10 @@ void abc() {
 		}
 		case(5): {
 			h7_get();
+			break;
+		}
+		case(6): {
+			h8_get();
 			break;
 		}
 		case(0): {
