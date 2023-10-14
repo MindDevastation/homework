@@ -201,7 +201,7 @@ void h8_task6() {
 }
 void h8_task7() {
 	system("cls");
-	int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
+	const int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
 	int dynamic_array_length = dist_8_2(gen1);
 	int* dynamic_number_array = new int[dynamic_array_length];
 	int biggest = 0, i = 0;
@@ -228,7 +228,7 @@ void h8_task7() {
 void h8_task8() {
 	system("cls");
 	int i = 0, k = 0;
-	int array_length = dist_8_2(gen1);
+	const int array_length = dist_8_2(gen1);
 	int* one_dim_array = new int[array_length];
 	int** two_dim_array = new int*[array_length];
 	for (i = 0; i < array_length; i++) two_dim_array[i] = new int[3];
@@ -259,13 +259,13 @@ void h8_task8() {
 }
 void h8_task9() {
 	system("cls");
-	int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
+	const int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
 	std::cout << "Fist number: " << one << std::endl;
 	std::cout << "Second number: " << two << std::endl;
 	std::cout << "Third number: " << three << std::endl;
 	std::cout << "Sum1: " << Sum(one, two, three) << std::endl;
 
-	int array_length = dist_8_2(gen1);
+	const int array_length = dist_8_2(gen1);
 	int* arr = new int[array_length];
 	int i = 0;
 
@@ -281,14 +281,14 @@ void h8_task9() {
 }
 void h8_task10() {
 	system("cls");
-	int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
+	const int one = dist_8(gen1), two = dist_8(gen1), three = dist_8(gen1);
 	std::cout << "Fist number: " << one << std::endl;
 	std::cout << "Second number: " << two << std::endl;
 	std::cout << "Third number: " << three << std::endl;
 	std::cout << "Average of " << one << " and " << two << " is " << Avg_n(one, two) << std::endl;
 	std::cout << "Average of " << one << ", " << two << " and " << three << " is " << Avg_n(one, two, three) << std::endl;
 
-	int array_length = dist_8_2(gen1);
+	const int array_length = dist_8_2(gen1);
 	int* arr = new int[array_length];
 	int i = 0;
 
